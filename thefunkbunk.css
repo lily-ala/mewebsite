@@ -1,0 +1,103 @@
+html {
+    background-image: url("https://lh3.googleusercontent.com/oCNyQ6Xjp7CIsDKAnBnGB8b-cCl8_gVIEHGC4ECRl7UVUeSI4CFoEWTsmGRh91nsRdkctB2GCz4m4o0F89q17h9gm-JcJXDN_xbv-c4FBRbAQEsqHrmgvZ0ux5I372bUCEsX6-eC=w2400");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+body {
+    text-align: center;
+    font-family: 'Londrina Solid';
+    
+}
+
+div .title {
+    font: bolder;
+    font-stretch: ultra-expanded;
+    color: antiquewhite;
+    font-size: 75px;
+
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 75px;
+
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.twitter , .pinterest , .insta {
+    height: 50px;
+    width: 50px;
+
+}
+#imgfoot {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+button {
+    border: none;
+    background: none;
+    font-family:'Londrina Solid';
+}
+.bhome , .bdecor , .bkitchenware , .bfurniture {
+    margin-inline: 50px;
+    text-emphasis-color: antiquewhite;
+}
+
+footer {
+    width: 1385px;
+    border: 15px solid rgba(180, 84, 164, 0.774);
+    padding: 50px;
+    margin: 0px;
+    background-color: rgba(42, 144, 66, 0.562);
+    border-style: double;
+    border-radius: 0px 0px 50px 50px;
+}
+
+#credit {
+    color: antiquewhite;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+section .background {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    text-align: center;
+}
+section::before {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    right: -24%;
+    width:300vh;
+    height:300vh;
+    background:rgba(255, 132, 0, 0.7);
+    border-radius: 50%;
+    transform-origin: center;
+    transform: translateX(-40%) scale(4);
+    transform: translateY(70%);
+
+}
